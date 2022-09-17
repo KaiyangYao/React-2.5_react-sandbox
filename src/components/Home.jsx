@@ -41,6 +41,12 @@ function Home() {
         >
           Custom Hook - useFetch()
         </Link>
+        <Link
+          className="list-group-item list-group-item-action"
+          to="custom-hook-example-2"
+        >
+          Custom Hook - useLocalStorage()
+        </Link>
       </ul>
     </>
   );
