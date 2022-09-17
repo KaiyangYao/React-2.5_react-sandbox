@@ -35,6 +35,12 @@ function Home() {
         >
           useCallback Example
         </Link>
+        <Link
+          className="list-group-item list-group-item-action"
+          to="custom-hook-example-1"
+        >
+          Custom Hook - useFetch()
+        </Link>
       </ul>
     </>
   );
